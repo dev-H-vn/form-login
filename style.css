@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  height: 100vh;
+  margin: auto;
+}
+
+.login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+th,
+td {
+  border: 1px solid rgb(229, 228, 230);
+  height: 30px;
+  padding: 5px 15px;
+}
+th {
+  text-align: left;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgb(229, 228, 230);
+}
+
+.btn-costom {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.btn-costom button {
+  margin: 2px;
+}
+
+.Register {
+  width: 90px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(83, 141, 185);
+}
+
+.Remove {
+  width: 90px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(219, 82, 77);
+}
+.Login {
+  width: 90px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(95, 184, 93);
+}
+
+/* form */
+
+.form_check {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.form_check form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+}
